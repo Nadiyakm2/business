@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://boxicons.com/css/boxicons.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>SereniTea Corner</title>
+</head>
+
+<body>
+    <div class="hero"></div>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                <i class='bx bx-cup'></i> SereniTea Corner
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#order">Order Now</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero" style="text-align: center; position: relative;">
+        <video autoplay muted loop style="width: 100%; filter: contrast(0.7);">
+            <source src="bg vdo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 2;">
+            <img src="logo.png" alt="Shop Logo" style="max-width: 200px; height: auto;">
+            <h2 style="color: rgb(58, 52, 52); font-size: 2em; margin-top: 10px;"><i><b>SereniTea Corner</b></i></h2>
+        </div>
+        <h1 style="color: white;">Welcome to a World of Flavor</h1>
+        <p style="color: white;">Indulge in the finest teas and delectable snacks crafted just for you.</p>
+    </section>
+
+    <section id="menu" class="menu-section" style="text-align: center; margin-top:50px; color: rgb(58, 52, 52)">
+        <!-- Your menu section remains unchanged -->
+         
+    <section id="menu" class="menu-section" style="text-align: center; margin-top:50px; color: rgb(58, 52, 52)">
+        <h2 class="section-title">Our Menu</h2><br>
+        <div class="menu-box">
+            <div class="menu-container">
+                <div class="menu-item">
+                    <img src="coffee.jpeg" alt="Coffee" class="menu-image" width="400px" height="200px">
+                    <div class="item-details">
+                        <h3>Coffee</h3>
+                    </div>
+                </div>
+    
+                <div class="menu-item">
+                    <img src="Masala-chai-1-1.webp" alt=" Chai" class="menu-image" width="400px" height="200px">
+                    <div class="item-details">
+                        <h3>Chai</h3>
+                    </div>
+                </div>
+    
+                <div class="menu-item">
+                    <img src="samosa.png" alt="samosa" class="menu-image" width="400px" height="200px">
+                    <div class="item-details">
+                        <h3>Samosa</h3>
+                    </div>
+                </div>
+    
+                <div class="menu-item">
+                    <img src="bonda.png" alt="Bonda" class="menu-image" width="400px" height="200px">
+                    <div class="item-details">
+                        <h3>Bonda</h3>
+                    </div>
+                </div>
+    
+                <div class="menu-item">
+                    <img src="muttabaji.jpg" alt="Mutta baji" class="menu-image" width="400px" height="200px">
+                    <div class="item-details">
+                        <h3>Mutta baji</h3>
+                    </div>
+                </div>
+    
+                <div class="menu-item">
+                    <img src="pokada.png" alt="pokada" class="menu-image" width="400px" height="200px">
+                    <div class="item-details">
+                        <h3>Pokada</h3>
+                    </div>
+                </div>
+    
+                <div class="menu-item">
+                    <img src="pazahmpori.png" alt="pazhampori" class="menu-image" width="400px" height="200px">
+                    <div class="item-details">
+                        <h3>Pazhampori</h3>
+                    </div>
+                </div>
+    
+                <div class="menu-item">
+                    <img src="ullivada.png" alt="ullivada" class="menu-image" width="400px" height="200px">
+                    <div class="item-details">
+                        <h3>Ullivada</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="order" style="text-align: center; margin-top: 50px;">
+        <!-- Your order section remains unchanged -->
+         <section id="order" style="text-align: center; margin-top: 50px;">
+                <h2 class="section-title">Place Your Order</h2>
+                <form id="orderForm">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            
+                    <label for="item">Select Item:</label>
+                    <select id="item" name="item" required>
+                        <option value="Coffee">Coffee</option>
+                        <option value="Chai">Chai</option>
+                        <option value="Samosa">Samosa</option>
+                        <option value="Muttabaji">Muttabaji</option>
+                        <option value="Pazhampori">Pazhampori</option>
+                        <option value="Ullivada">Ullivada</option>
+                        <option value="Bonda">Bonda</option>
+                        <option value="Pokada">Pokada</option>
+                    </select>
+            
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+            
+                    <label for="price">Price:</label>
+                    <input type="text" id="price" name="price" readonly>
+            
+                    <button type="button" onclick="calculatePrice()">Calculate Price</button>
+                    <button type="button" onclick="submitOrder()">Place Order</button>
+                </form>
+            
+                <script>
+                    function calculatePrice() {
+                        
+                        var selectedItem = document.getElementById("item").value;
+            
+                        
+                        var itemPrices = {
+                            "Coffee": 20,
+                            "Chai": 15,
+                            "Samosa": 10,
+                            "Muttabaji":10,
+                            "Pazhampori":10,
+                            "Ullivada": 10,
+                            "Bonda": 10,
+                            "Pokada": 10
+                        };
+            
+                        
+                        var quantity = document.getElementById("quantity").value;
+            
+                        
+                        var totalPrice = itemPrices[selectedItem] * quantity;
+            
+                        
+                        document.getElementById("price").value = "$" + totalPrice.toFixed(2);
+                    }
+            
+                    function submitOrder() {
+                        
+                        alert("Order placed successfully!");
+                    }
+                </script>
+            </section>
+            
+    </section>
+
+    <section id="about" style="text-align: center; margin-top: 50px;">
+        <!-- Your about section remains unchanged -->
+        <section id="about" style="text-align: center; margin-top: 50px;">
+            <h2 class="section-title">About Us</h2>
+            <p>At Tea & Snacks Delight, we are passionate about creating a delightful experience for tea enthusiasts and snack
+                lovers. Our handpicked selection of teas and artisanal snacks is crafted to perfection, ensuring every moment
+                with us is a moment of pure indulgence.</p>
+        
+    
+    
+    </body></section>
+
+    <footer style="text-align: center; margin-top: 20px;">
+        <p>&copy; 2023 Tea & Snacks Delight. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+   
+    
+           
+
+    
